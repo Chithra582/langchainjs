@@ -1,0 +1,14 @@
+name: "chain-executor"
+description: "Executes an assembled LCEL Runnable chain with input validation and token streaming."
+input_schema:
+  type: "object"
+  properties:
+    chain_id:
+      type: "string"
+      description: "Identifier of the target LCEL runnable chain."
+    input_data:
+      type: "object"
+      description: "Input variables dictionary matching chain schema."
+  required:
+    - "chain_id"
+    - "input_data"

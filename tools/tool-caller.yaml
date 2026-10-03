@@ -1,0 +1,14 @@
+name: "tool-caller"
+description: "Binds and executes tools with schema validation against model-generated function calls."
+input_schema:
+  type: "object"
+  properties:
+    tool_name:
+      type: "string"
+      description: "Name of the bound tool."
+    tool_args:
+      type: "object"
+      description: "Extracted argument dictionary."
+  required:
+    - "tool_name"
+    - "tool_args"

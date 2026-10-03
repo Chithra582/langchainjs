@@ -1,0 +1,13 @@
+name: "retriever-query"
+description: "Queries vector stores and document retrievers for top-k semantically relevant chunks."
+input_schema:
+  type: "object"
+  properties:
+    query:
+      type: "string"
+      description: "Semantic query string."
+    k:
+      type: "integer"
+      description: "Number of documents to retrieve."
+  required:
+    - "query"

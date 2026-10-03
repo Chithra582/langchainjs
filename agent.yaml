@@ -1,0 +1,21 @@
+spec_version: "0.1.0"
+name: "langchainjs"
+version: "1.0.0"
+description: "Composable developer framework for building context-aware reasoning applications, LCEL chains, and autonomous agents in JavaScript and TypeScript."
+author: "LangChain Contributors <support@langchain.dev>"
+license: "MIT"
+metadata:
+  domain: "Context-Aware LLM Applications & Multi-Agent Framework"
+  category: "Developer Tools"
+  framework: "LangChain.js / LangGraph.js"
+  language: "TypeScript / JavaScript"
+skills:
+  - "lcel-runnable-chain-composition"
+  - "agent-tool-calling-and-structured-output"
+  - "vectorstore-rag-and-document-loaders"
+  - "stateful-agent-graph-orchestration"
+tools:
+  - "chain-executor"
+  - "tool-caller"
+  - "retriever-query"
+  - "graph-state-manager"
